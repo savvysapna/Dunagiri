@@ -1,0 +1,42 @@
+.navbar {
+    position: sticky !important;
+}
+
+.navigation {
+    margin: 1rem 20% 0rem 20%;
+    gap: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navigation > span {
+    z-index: 12;
+    height: 3rem;
+    padding: 0.8rem;
+    border-top: 1px solid black;
+    transition: all 0.1s ease-in-out;
+}
+
+.navigation > span:hover {
+    border-top: 5px solid #014235;
+    cursor: pointer;
+}
+
+.navigation > span > a {
+    font-family: "Calibri thin";
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.logo {
+    z-index: 1;
+}
+
+.logo > img {
+    height: 2.5rem;
+}

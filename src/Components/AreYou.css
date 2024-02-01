@@ -1,0 +1,48 @@
+.AreYou {
+    margin: 0rem 18% 0rem 18%;
+    margin-top: 4rem;
+}
+.areYouMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4.5rem;
+}
+.rightContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 100vw;
+}
+
+.rightContainerHeader {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.subHeader {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0rem 0rem 1rem 0rem;
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.rightContainerGrid {
+    margin-top: 2.5rem;
+    display: grid;
+    height: 100%;
+    width: 80vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
